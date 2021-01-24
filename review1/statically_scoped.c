@@ -4,7 +4,6 @@ int x = 1;
 
 void foo() {
 	printf("%d\n",x);
-
 }
 
 int main() {

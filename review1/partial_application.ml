@@ -1,7 +1,4 @@
-let matrix = [ [1;1;1;0] ; [1;1;0;0] ; [1;0;0;0] ; [0;0;0;0] ]
+let my_add x y = x + y
 
-let vector_flip v = List.map (fun x -> if x = 1 then 0 else x) v
-
-let matrix_flip m = List.map vector_flip m
-
-let flipped = matrix_flip matrix
+let add_2 y = my_add 2 y
+let add_3 y = my_add 3 y

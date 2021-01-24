@@ -1,4 +1,4 @@
 l :: [Integer]
-l  = [0..5]
+l  = [0,1..]
 
-l' = drop 1 $ map (\x -> 100 `div` x) l
+l' = take 5 $ drop 1 $ map (\x -> 100 `div` x) l

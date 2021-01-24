@@ -1,5 +1,7 @@
 let id x = x
 
+let id_int x:int = x
+
 let add_f x y = x +. y
 
 let add_p x y = x + y
